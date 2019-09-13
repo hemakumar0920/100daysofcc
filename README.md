@@ -3,6 +3,7 @@ for TEST COMPLETION STATUS
 
 
 1) [Blockly Maze Completion](Day01.md)
+2) [HugLeft](Day02.md)
 
 
 
