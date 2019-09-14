@@ -17,3 +17,4 @@ The program reads the numbers N and K. It should print the two answers for the q
 12) [Given a three-digit number. Find the sum of its digits.](Day12.md)
 13) [Odd or Even](Day13.md)
 14) [Given a month - an integer from 1 to 12, print the number of days in it in the year 2017](Day14.md)
+15) [Given three integers, print the least of them](Day15.md)
