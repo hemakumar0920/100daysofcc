@@ -1,0 +1,84 @@
+## JugsMugsPugsPlusReverse Range
+- Write a program that receives a number on the input and prints values from 1 to   
+that number subjected to the conditions below. 
+- It also should receive another value 'rev' (0 or 1) on the input. 
+
+For every number in the given range, 
+  - If the number is a multiple of 3, or it contains digit 3, it prints "Jugs". 
+  - If the number is a multiple of 5, or it contains digit 5, it prints "Mugs".
+  - If the number is a multiple of 7, or it contains digit 7, it prints "Pugs".
+
+  - If the number is a multiple of both 3 and 5, it prints "JugsMugs".
+        - also if number contains 3 and 5, it prints "JugsMugs"
+  - If the number is a multiple of both 3 and 7, it prints "JugsPugs".
+        - also if number contains 3 and 7, it prints "JugsPugs"
+  - If the number is a multiple of 3, 5 and 7, it prints "JugsMugsPugs".
+        - also if number contains 3, 5 and 7, it prints "JugsMugsPugs"
+
+Otherwise, it prints the number.
+
+REVERSE REQUIREMENT:
+If the boolean 'rev' is True (or 1), then reverse the order of printing. 
+   - "PugsJugsMugs" for multiples of 3, 5 and 7
+   - "PugsMugs" for multiple of 3 and 7
+   - "MugsJugs" for multiple of 3 and 5 
+   - "PugsJugs" for multiple of 5 and 7
+```
+INPUT 
+5
+0
+OUTPUT
+1
+2
+Jugs
+4
+Mugs
+
+INPUT 
+15
+1
+OUTPUT
+1
+2
+Jugs
+4
+Mugs
+Jugs
+Pugs
+8
+Jugs
+Mugs
+11
+Jugs
+Jugs
+Pugs
+MugsJugs
+```
+
+```
+a=int(input())
+rev=int(input())
+s =""
+
+if rev==0:
+  for i in range(1,a+1):
+    if str(3) in str(i) or i%3==0:
+      s+="Jugs"
+    if str(5) in str(i) or i%5==0:
+      s+="Mugs"
+    if str(7) in str(i) or i%7==0:
+      s+="Pugs"
+    print(s or i)
+    s =""
+    
+else:
+  for i in range(1,a+1):
+    if str(7) in str(i) or i%7==0:
+      s+="Pugs"
+    if str(5) in str(i) or i%5==0:
+      s+="Mugs"
+    if str(3) in str(i) or i%3==0:
+      s+="Jugs"
+    print(s or i)
+    s =""
+```
