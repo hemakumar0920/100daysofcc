@@ -25,3 +25,4 @@ The program reads the numbers N and K. It should print the two answers for the q
 20) [JugsMugsPugs ](Day20.md)
 21) [JugsMugsPugs Plus](Day21.md)
 22) [JugsMugsPugsPlusReverse Range](Day22.md)
+23) [JugsMugsPugs Lite](Day23.md)
