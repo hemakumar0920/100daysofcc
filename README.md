@@ -20,3 +20,4 @@ The program reads the numbers N and K. It should print the two answers for the q
 15) [Given three integers, print the least of them](Day15.md)
 16) [Leap year or not](Day16.md)
 17) [Jugs Mugs Pugs for five](Day17.md)
+18) [Jugs for three](Day18.md)
