@@ -24,3 +24,4 @@ The program reads the numbers N and K. It should print the two answers for the q
 19) [Digit in Number](Day19.md)
 20) [JugsMugsPugs ](Day20.md)
 21) [JugsMugsPugs Plus](Day21.md)
+22) [JugsMugsPugsPlusReverse Range](Day22.md)
